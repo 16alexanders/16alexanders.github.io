@@ -22,15 +22,9 @@ function initialize() {
 
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   
-<<<<<<< HEAD
-  var ctaLayer = new google.maps.KmlLayer({
-    url: 'https://maps.google.com/maps?q=https://www.dropbox.com/s/90fmmvgxsn2u4g4/WigleWifi_20140920004408.kml?dl=1'
-=======
 	var layer = new google.maps.KmlLayer({
-  driveFileId: "0B5Bz-8qNWoOET25fTDJnb2RaZGs"
+    driveFileId: "0B5Bz-8qNWoOET25fTDJnb2RaZGs"
 });
-  });
->>>>>>> parent of 070632d... Formatting and setmap
   ctaLayer.setMap(map);
 }
 
